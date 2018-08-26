@@ -1,0 +1,55 @@
+/*
+Created By Gavin Monroe
+Date: 1/13/18
+CSS
+
+Tic Tac Toe - Main CSS
+*/
+#tttTable{
+    border: 2px solid darkslategrey;
+    width:50%;
+    background-image: url("../img/backPattern.jpg");
+    background-repeat: repeat;
+    border-radius: 8px;
+}
+#tttTable td{
+    border: 2px solid black;
+    width: 33.333%;
+}
+#tttTable td:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+}
+#tttTable td div{
+    height: 100%;
+    width: 100%;
+}
+.nSpot:hover{
+    cursor:pointer;
+    background-color: rgba(0,0,0, .2);
+}
+#pTurnImg{
+    height:18px;
+    display:inline-flex;
+}
+#pTurnBef{
+    display:inline-flex;
+}
+#pTurnAft{
+    display:inline-flex;
+}
+.xSpot{
+      background-image: url("../img/x.png");
+      background-position: center;
+      background-size:cover;
+      background-color: rgba(200,0,0, .2);
+      cursor:not-allowed;
+}
+.oSpot{
+    background-image: url("../img/o.png");
+    background-position: center;
+    background-color: rgba(0,0,200, .2);
+    background-size:cover;
+    cursor:not-allowed;
+}
