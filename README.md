@@ -3,3 +3,6 @@ Uses PHP and MySql to overall session the games and create temp users that can p
 
 # Thank you
 This project was just for fun and I had a fun time making it. Overall it was a simplistic idea.
+
+# Play it!
+https://gmonroe.org/archive/multi-t-t-t/
